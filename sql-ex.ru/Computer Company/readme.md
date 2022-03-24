@@ -1,12 +1,12 @@
-# Schema of Database
+# Schema of Database^
 
-## Product(maker, model, type)
+### Product(maker, model, type)
 
-## PC(code, model, speed, ram, hd, cd, price)
+### PC(code, model, speed, ram, hd, cd, price)
 
-## Laptop(code, model, speed, ram, hd, price, screen)
+### Laptop(code, model, speed, ram, hd, price, screen)
 
-## Printer(code, model, color, type, price)
+### Printer(code, model, color, type, price)
 
 ### Task 1
 
@@ -15,4 +15,5 @@
 ### Query
 
 Select model, speed, hd from PC
+
 where price<500

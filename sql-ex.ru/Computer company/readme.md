@@ -10,5 +10,5 @@
  
  
  
-[Task 1]
+[Task 1](https://github.com/ZabiyakaDaniil/SQL/blob/main/sql-ex.ru/Computer%20company/Task%201.sql)
 

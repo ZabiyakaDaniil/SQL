@@ -1,4 +1,4 @@
-# Schema of Database^
+# Schema of Database:
 
 ### Product(maker, model, type)
 

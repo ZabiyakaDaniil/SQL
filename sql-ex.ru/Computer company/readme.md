@@ -9,6 +9,5 @@
 ### Printer(code, model, color, type, price)
  
  
- 
-[Tasks]
+ ####
 

@@ -1,1 +1,1 @@
-#Schema of Database "Store"
+# Schema of Database "Store"

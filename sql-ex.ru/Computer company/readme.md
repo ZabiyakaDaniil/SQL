@@ -1,13 +1,6 @@
-# Schema of Database:
+# Schema of Database "Computer Company":
 
-### Product(maker, model, type)
+![Schema Computer company](https://user-images.githubusercontent.com/101666279/187069770-afabde2e-90b6-4c66-8c86-4115bae1dc04.png)
 
-### PC(code, model, speed, ram, hd, cd, price)
 
-### Laptop(code, model, speed, ram, hd, price, screen)
-
-### Printer(code, model, color, type, price)
- 
- 
- ####
-
+## [Queries](https://github.com/ZabiyakaDaniil/SQL/blob/main/sql-ex.ru/Computer%20company/ComputerCompany.sql)

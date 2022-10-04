@@ -4,4 +4,4 @@
 
 ## [Trip](https://github.com/ZabiyakaDaniil/SQL/tree/main/Stepik.org/SQL%20simulator/Trip)
 
-## [Trip](https://github.com/ZabiyakaDaniil/SQL/tree/main/Stepik.org/SQL%20simulator/Fine)
+## [Fine](https://github.com/ZabiyakaDaniil/SQL/tree/main/Stepik.org/SQL%20simulator/Fine)

@@ -179,7 +179,7 @@ set buy = IF(buy>=amount, amount,
 price = IF(buy=0, price*0.9, price);
 
 --Для тех книг в таблице book , которые есть в таблице supply, не только увеличить их количество в таблице book
---(увеличить их количество на значение столбца amountтаблицы supply),
+--(увеличить их количество на значение столбца amount таблицы supply),
 --но и пересчитать их цену (для каждой книги найти сумму цен из таблиц book и supply и разделить на 2).
 UPDATE book b, supply s
 SET b.amount = b.amount+s.amount,

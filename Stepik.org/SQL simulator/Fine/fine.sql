@@ -57,7 +57,7 @@ and f.number_plate=p.number_plate
 and f.violation=p.violation;
 
 --Создать новую таблицу back_payment, куда внести информацию о неоплаченных штрафах (Фамилию и инициалы водителя, номер машины, нарушение, сумму штрафа
-и  дату нарушения) из таблицы fine.
+--и  дату нарушения) из таблицы fine.
 
 create table back_payment as
 select name, number_plate, violation, sum_fine, date_violation

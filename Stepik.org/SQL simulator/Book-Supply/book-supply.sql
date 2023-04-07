@@ -219,6 +219,7 @@ select s.title, a.author_id, null, s.price, s.amount
 from author a
 inner join supply s on a.name_author = s.author
 where s.amount <> 0;
+select * from book;
 
  --Занести для книги «Стихотворения и поэмы» Лермонтова жанр «Поэзия», а для книги «Остров сокровищ» Стивенсона - «Приключения». (Использовать два запроса).
  

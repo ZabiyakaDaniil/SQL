@@ -17,14 +17,14 @@ order by name;
 --Для каждого города посчитать, сколько раз сотрудники в нем были.  Информацию вывести в отсортированном в алфавитном порядке по названию городов.
 --Вычисляемый столбец назвать Количество. 
 
-select distinct city, count(city) as Количество
+select city, count(city) as Количество
 from trip
 group by city
 order by city;
 
 --Вывести два города, в которых чаще всего были в командировках сотрудники. Вычисляемый столбец назвать Количество.
 
-select distinct city, count(city) as Количество
+select city, count(city) as Количество
 from trip
 group by city
 order by Количество DESC

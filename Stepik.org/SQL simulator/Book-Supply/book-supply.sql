@@ -148,13 +148,15 @@ from
 (
 select genre_id, sum(amount) as sum_amount
 from book
-group by genre_id) query1
+group by genre_id
+) query1
 inner join
 (
 select genre_id, sum(amount) as sum_amount
 from book
 group by genre_id
-limit 1) query2
+limit 1
+) query2
 on query1.sum_amount=query2.sum_amount)
 order by b.title;
 
